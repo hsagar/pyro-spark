@@ -4,10 +4,10 @@ install:
 	uv sync
 
 lab:
-	uv run jupyter lab
+	JUPYTER_CONFIG_DIR=$(PWD)/jupyter uv run jupyter lab
 
 kernel:
-	uv run python -m ipykernel install --user --name pyro-spark --display-name "PySpark (pyro-spark)"
+	uv run jupyter kernelspec install $(PWD)/kernel --name pyro-spark --sys-prefix
 
 run:
 	@if [ -z "$(nb)" ]; then echo "Usage: make run nb=<notebook>.ipynb"; exit 1; fi

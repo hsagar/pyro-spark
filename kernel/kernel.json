@@ -1,0 +1,24 @@
+{
+ "argv": [
+  "/Users/stop/projects/python/pyro-spark/.venv/bin/python3",
+  "-Xfrozen_modules=off",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}",
+  "--profile-dir",
+  "/Users/stop/projects/python/pyro-spark/kernel/profile"
+ ],
+ "display_name": "PySpark (pyro-spark)",
+ "language": "python",
+ "metadata": {
+  "debugger": true
+ },
+ "kernel_protocol_version": "5.5",
+ "env": {
+  "JAVA_HOME": "/opt/homebrew/opt/openjdk@17",
+  "PYSPARK_PYTHON": "/Users/stop/projects/python/pyro-spark/.venv/bin/python3",
+  "PYSPARK_DRIVER_PYTHON": "/Users/stop/projects/python/pyro-spark/.venv/bin/python3",
+  "SPARK_LOCAL_IP": "127.0.0.1"
+ }
+}

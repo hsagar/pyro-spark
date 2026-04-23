@@ -54,6 +54,17 @@ __MACOSX/
 *.iws
 *.ipr
 
+# ── JupyterLab runtime state ─────────────────────────────────────────────────
+jupyter/lab/
+jupyter/migrated
+
+# ── IPython kernel profile runtime ───────────────────────────────────────────
+kernel/profile/db/
+kernel/profile/history.sqlite
+kernel/profile/log/
+kernel/profile/pid/
+kernel/profile/security/
+
 # ── Claude Code ──────────────────────────────────────────────────────────────
 .claude/
 
