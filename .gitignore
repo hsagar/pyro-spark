@@ -1,0 +1,64 @@
+# ── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+.eggs/
+
+# ── uv / virtualenv ──────────────────────────────────────────────────────────
+.venv/
+venv/
+.python-version
+
+# ── Spark / PySpark ──────────────────────────────────────────────────────────
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+_*
+
+# ── Delta Lake ────────────────────────────────────────────────────────────────
+_delta_log/
+
+# ── Data & output ─────────────────────────────────────────────────────────────
+data/
+/mnt/
+
+# ── Large dataset binaries (too big for plain git) ───────────────────────────
+datasets/*.parquet
+datasets/*.orc
+datasets/emp_new.csv
+datasets/order_multiline.json
+
+# ── macOS ────────────────────────────────────────────────────────────────────
+.DS_Store
+__MACOSX/
+
+# ── VS Code ──────────────────────────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ── PyCharm / JetBrains ──────────────────────────────────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ── Claude Code ──────────────────────────────────────────────────────────────
+.claude/
+
+# ── Environment / secrets ────────────────────────────────────────────────────
+.env
+.env.*
+*.env
+
